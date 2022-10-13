@@ -1,0 +1,19 @@
+Package: multiserver
+Title: Bank queuing system
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kemran",
+           family  = "Kaya",
+           role = c("aut", "cre"),
+           email = "kemran.kaya1@students.mq.edu.au")
+Description: This package simulates a first come, first serve queuing 
+ system for a given number of different arrival and service times. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Imports: 
+    tibble
